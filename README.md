@@ -81,3 +81,9 @@ The system's efficiency is a direct result of its cutting-edge engineering.
 *   **Scalable Foundation:** The architecture supports rapid growth in users, data volume, and new features without exponential cost increases.
 
 This platform is not just a technical achievement; it is a strategic asset that delivers a competitive edge through superior engineering and intelligent automation.
+
+## 📈 TODO
+
+*   **UI Screenshots:** Incoming screenshots from web applications and telegram.
+*   **Grafana Screenshots:** Incoming screenshots from grafana about metrics mentioned above.
+
