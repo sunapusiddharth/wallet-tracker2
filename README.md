@@ -1,8 +1,4 @@
-Of course. Here is the updated README, crafted to speak the language of business stakeholders (managers, owners, HR) by focusing on ROI, efficiency, scalability, and measurable outcomes. It structures the information to highlight the "why" before the "how."
-
----
-
-# Real-Time Crypto Intelligence & Trading Platform
+**Real-Time Crypto Intelligence & Trading Platform**
 
 A high-performance, cost-efficient system for real-time cryptocurrency wallet tracking, coin analysis, and automated trading. This platform transforms massive, chaotic blockchain data into actionable, ranked intelligence and automated actions, all while operating on minimal infrastructure.
 
@@ -12,21 +8,21 @@ This system processes a **high-velocity data stream** to deliver real-time finan
 
 | Metric | Achievement | Business Impact |
 | :--- | :--- | :--- |
-| **Data Processing Volume** | **~2 GB/min** of incoming raw data | Capable of monitoring the entire Solana ecosystem and beyond in real-time. |
-| **In-Memory Processing** | Complex logic run on **< 200 MB RAM** | Drastically reduces server costs and enables extremely fast decisioning. |
-| **Infrastructure Cost** | Runs on a single **$10-20/mo cloud server** (4GB RAM, 1 vCPU) | **~90% cost reduction** compared to typical solutions requiring large server clusters. |
+| **Data Processing Volume** | **~1 GB/min** of incoming raw data | Capable of monitoring a hefty chunk of Solana's web3 ecosystem and beyond in real-time. |
+| **In-Memory Processing** | Complex distributed cluster of rust backend servers running with **< 300 MB RAM each** | Drastically reduces server costs and enables extremely fast decisioning. |
+| **Infrastructure Cost** | Runs on a single **$10-20/mo cloud server** (8GB RAM, 2 vCPU) | **~90% cost reduction** compared to typical solutions requiring large server clusters. |
 | **Real-Time Tracking** | **300,000+ wallets** & **500,000+ coins** tracked live | Provides a comprehensive, up-to-the-second view of market activity. |
-| **Throughput** | Handles **1M+ events/minute** via webhooks + **500k concurrent WebSocket connections** | Supports massive user bases and high-frequency event processing without degradation. |
+| **Throughput** | Handles **1M+ events/minute** via webhooks on single instance + **500k concurrent WebSocket connections** overall  | Supports massive user bases and high-frequency event processing without degradation. |
 | **Data Retention** | **1M+ wallets** & **3M+ coins** analyzed to date | Enables deep historical trend analysis and pattern recognition. |
 
 ---
 
 ## 💡 How It Drives Value
 
-*   **Cost-Effective Scalability:** Processes data at a volume typically requiring expensive infrastructure, but on a minimal footprint, ensuring high ROI.
+*   **Cost-Effective Scalability:** Processes data at a volume typically requiring expensive infrastructure, but on a minimal footprint, ensuring high ROI.Highly scalable pipelines ensuring fault tolerant system with memory and resurce conservative optimizations done.
 *   **Real-Time Decision Making:** AI-powered filters and ranking algorithms identify opportunities and risks faster than humanly possible, enabling proactive strategies.
 *   **Automated Risk Management:** Built-in stop-loss trading executes automatically to protect assets based on live market conditions.
-*   **Actionable Intelligence:** Live rankings and alerts delivered via UI, WebSocket, and Telegram ensure critical information reaches stakeholders immediately.
+*   **Actionable Intelligence:** Live rankings and alerts delivered via UI, WebSocket, and Telegram ensure critical information reaches users immediately.
 
 ---
 
@@ -67,7 +63,7 @@ The system's efficiency is a direct result of its cutting-edge engineering.
 
 | Component | Technology |
 | :--- | :--- |
-| **Backend Engine** | Rust (Tokio, Async) |
+| **Backend Engine** | Rust (Tokio, Async, fastwebsocket) |
 | **Frontend Dashboard** | React, Next.js, Chart.js, React Query |
 | **Real-Time Comm** | WebSockets, Server-Sent Events (SSE) |
 | **Database** | PostgreSQL |
