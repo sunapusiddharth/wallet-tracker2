@@ -1,7 +1,7 @@
 **Real-Time Crypto Wallet + Coin Tracker with Intelligent Trading Platform**
 
 
-code is moved to orovate repository
+code is moved to private repository
 
 A high-performance, cost-efficient system for real-time cryptocurrency wallet tracking, coin analysis, and automated trading. This platform transforms massive, chaotic blockchain data into actionable, ranked intelligence and automated actions, all while operating on minimal infrastructure.
 
