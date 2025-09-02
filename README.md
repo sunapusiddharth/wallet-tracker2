@@ -1,5 +1,5 @@
 **Real-Time Crypto Intelligence & Trading Platform**
-
+code is moved to orovate repository 
 A high-performance, cost-efficient system for real-time cryptocurrency wallet tracking, coin analysis, and automated trading. This platform transforms massive, chaotic blockchain data into actionable, ranked intelligence and automated actions, all while operating on minimal infrastructure.
 
 ## 🚀 Executive Summary & Key Metrics
