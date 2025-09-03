@@ -11,19 +11,19 @@ This system processes a **high-velocity data stream** to deliver real-time finan
 
 | Metric | Achievement | Business Impact |
 | :--- | :--- | :--- |
-| **Data Processing Volume** | **~1 GB/min** of incoming raw data | Capable of monitoring a hefty chunk of Solana's web3 ecosystem and beyond in real-time. |
-| **In-Memory Processing** | Complex distributed cluster of rust backend servers running with **< 300 MB RAM each** | Drastically reduces server costs and enables extremely fast decisioning. |
-| **Infrastructure Cost** | Runs on a single **$10-20/mo cloud server** (8GB RAM, 2 vCPU) | **~90% cost reduction** compared to typical solutions requiring large server clusters. |
+| **Data Processing Volume** | **~1 GB/min** of incoming raw data | Capable of monitoring a hefty chunk of Solana's web3 ecosystem in real-time. |
+| **In-Memory Processing** | rust backend servers running with **< 300 MB RAM each** | Drastically reduces server costs and enables extremely fast decisioning. |
+| **Infrastructure Cost** | Runs on a single **$6/mo cloud server** (8GB RAM, 2 vCPU) | **~90% cost reduction** compared to typical solutions requiring large server clusters. |
 | **Real-Time Tracking** | **300,000+ wallets** & **500,000+ coins** tracked live | Provides a comprehensive, up-to-the-second view of market activity. |
-| **Throughput** | Handles **1M+ events/minute** via webhooks on single instance + **500k concurrent WebSocket connections** overall  | Supports massive user bases and high-frequency event processing without degradation. |
-| **Data Retention** | **1M+ wallets** & **3M+ coins** analyzed to date | Enables deep historical trend analysis and pattern recognition. |
+| **Throughput** | Handles **1M+ events/minute** via webhooks on single instance + **500k concurrent WebSocket connections**   | Supports massive user bases and high-frequency event processing without degradation. |
+| **Data Retention** | **1M+ wallets** & **3M+ coins** analyzed to date | Enables deep historical trend analysis and pattern recognition using machine learning |
 
 ---
 
 ## 💡 How It Drives Value
 
 *   **Cost-Effective Scalability:** Processes data at a volume typically requiring expensive infrastructure, but on a minimal footprint, ensuring high ROI.Highly scalable pipelines ensuring fault tolerant system with memory and resurce conservative optimizations done.
-*   **Real-Time Decision Making:** AI-powered filters and ranking algorithms identify opportunities and risks faster than humanly possible, enabling proactive strategies.
+*   **Real-Time Decision Making:** AI and ML-powered filters and continuous ranking algorithms identify opportunities and risks faster than humanly possible, enabling proactive strategies.
 *   **Automated Risk Management:** Built-in stop-loss trading executes automatically to protect assets based on live market conditions.
 *   **Actionable Intelligence:** Live rankings and alerts delivered via UI, WebSocket, and Telegram ensure critical information reaches users immediately.
 
@@ -34,10 +34,10 @@ This system processes a **high-velocity data stream** to deliver real-time finan
 The system's efficiency is a direct result of its cutting-edge engineering.
 
 ### Core Engine (Rust)
-*   **High-Volume Data Ingestion:** Connects to multiple blockchain data providers, normalizing and processing millions of events per minute.
-*   **Intelligent Screening:** Background jobs ("screener jobs") process **300+ coins/sec** through AI filters to identify trends and anomalies.
+*   **High-Volume Data Ingestion:** Connects to multiple blockchain data providers, normalizing and processing millions of events per minute with intelligent retries api limits key rotations.
+*   **Intelligent Screening:** Background jobs ("screener jobs") process **300+ coins/sec** through machine learning based filters to identify trends and anomalies.
 *   **Optimized In-Memory Processing:** Custom data structures (**time buckets, sliding windows, priority queues/heaps**) enable rapid ranking and analysis of massive datasets directly in memory.
-*   **Performance Engineering:** Utilizes synchronized Rust data structures and object pools to **minimize heap allocations** and garbage collection pressure, ensuring consistent low-latency performance.
+*   **Performance Engineering:** Utilizes synchronized Rust data structures and object pools to **minimize heap allocations**, ensuring consistent low-latency performance.
 
 ### Infrastructure & Reliability
 *   **Kubernetes & Helm:** Containerized for resilience, easy scaling, and automated deployments (GitOps).
